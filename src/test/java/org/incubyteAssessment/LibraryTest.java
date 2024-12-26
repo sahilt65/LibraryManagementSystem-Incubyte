@@ -27,6 +27,7 @@ public class LibraryTest {
         assertTrue(bookExists, "Library should contain the book with ISBN 123-201 after adding.");
     }
 
+    //Test-1b For adding a Duplicate book which is already present.
     @Test
     public void testAddDuplicateBook() {
         book1 = new Book("123-202", "Java", "Freeman", 2001);
@@ -36,6 +37,7 @@ public class LibraryTest {
         assertEquals("Book with ISBN 123-202 already exists.", exception.getMessage());
     }
 
+    //All Test for Borrowing Books
     @Test
     public void testBorrowBook() {
         Book borrowedBook = library.borrowBook("123-202");
