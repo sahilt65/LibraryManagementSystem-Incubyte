@@ -1,6 +1,8 @@
 package org.incubyteAssessment;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 /**
  * Represents the library system that manages books.
@@ -72,5 +74,20 @@ public class Library {
         // Mark the book as returned by calling the 'returnBook()' method on the book object.
         // This method updates the internal state of the book to reflect that it is no longer borrowed.
         book.returnBook();
+    }
+
+    /**
+     * Views a list of available books in the library.
+     *
+     * @return a list of available books
+     */
+    public List<Book> viewAvailableBooks() {
+        List<Book> availableBooks = new ArrayList<>();
+        for (Book book : books.values()) {
+            if (!book.isBorrowed()) {
+                availableBooks.add(book);
+            }
+        }
+        return availableBooks;
     }
 }

@@ -111,9 +111,11 @@ public class LibraryTest {
      */
     @Test
     public void testViewAvailableBooks() {
+        book2 = new Book("123-203", "C++", "Sahil", 2002);
         // Initialize and add additional books to the library for a more comprehensive test.
         Book book3 = new Book("123-204", "Effective Java", "Joshua Bloch", 2008);
         Book book4 = new Book("123-205", "The Pragmatic Programmer", "Andrew Hunt", 1999);
+        library.addBook(book2); // Adding book3 to the library
         library.addBook(book3); // Adding book3 to the library
         library.addBook(book4); // Adding book4 to the library
         // Borrow one of the books (book1 with ISBN "123-202") from the library.

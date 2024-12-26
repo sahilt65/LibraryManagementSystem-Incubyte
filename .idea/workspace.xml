@@ -62,7 +62,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LibraryTest.testViewAvailableBooks">
+  <component name="RunManager" selected="JUnit.LibraryTest">
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManagementSystem-Incubyte" />
       <extension name="coverage">
@@ -144,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryTest.testViewAvailableBooks" />
         <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.testViewAvailableBooks" />
         <item itemvalue="JUnit.LibraryTest.testReturnBook" />
         <item itemvalue="JUnit.LibraryTest.testBorrowBook" />
         <item itemvalue="JUnit.LibraryTest.testAddDuplicateBook" />
