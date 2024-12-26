@@ -65,6 +65,9 @@ public class LibraryTest {
      */
     @Test
     public void testReturnBook() {
+        book1 = new Book("123-202", "Java", "Freeman", 2001);
+        book2 = new Book("123-203", "C++", "Sahil", 2002);
+        library.addBook(book2);
         //For Book 1
         //Borrow book1 with ISBN "123-202"
         library.borrowBook("123-202");

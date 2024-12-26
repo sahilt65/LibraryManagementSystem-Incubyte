@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81df4cb2-fd5a-4c0c-9e16-e520668dc6dc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/incubyteAssessment/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/incubyteAssessment/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/incubyteAssessment/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/incubyteAssessment/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/incubyteAssessment/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/incubyteAssessment/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     "JUnit.LibraryTest.testAddBook.executor": "Run",
     "JUnit.LibraryTest.testAddDuplicateBook.executor": "Run",
     "JUnit.LibraryTest.testBorrowBook.executor": "Run",
+    "JUnit.LibraryTest.testReturnBook.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
@@ -61,22 +63,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.LibraryTest">
-    <configuration name="BookTest.testBookCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LibraryManagementSystem-Incubyte" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.incubyteAssessment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.incubyteAssessment" />
-      <option name="MAIN_CLASS_NAME" value="org.incubyteAssessment.BookTest" />
-      <option name="METHOD_NAME" value="testBookCreation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManagementSystem-Incubyte" />
       <extension name="coverage">
@@ -140,13 +126,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest.testReturnBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagementSystem-Incubyte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.incubyteAssessment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.incubyteAssessment" />
+      <option name="MAIN_CLASS_NAME" value="org.incubyteAssessment.LibraryTest" />
+      <option name="METHOD_NAME" value="testReturnBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.testReturnBook" />
         <item itemvalue="JUnit.LibraryTest.testBorrowBook" />
         <item itemvalue="JUnit.LibraryTest.testAddDuplicateBook" />
         <item itemvalue="JUnit.LibraryTest.testAddBook" />
-        <item itemvalue="JUnit.BookTest.testBookCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -160,5 +162,26 @@
       <updated>1735186026671</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/incubyteAssessment/LibraryTest.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/incubyteAssessment/LibraryTest.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/incubyteAssessment/LibraryTest.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
