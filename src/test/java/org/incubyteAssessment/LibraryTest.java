@@ -35,4 +35,25 @@ public class LibraryTest {
         });
         assertEquals("Book with ISBN 123-202 already exists.", exception.getMessage());
     }
+
+    @Test
+    public void testBorrowBook() {
+        Book borrowedBook = library.borrowBook("123-202");
+        assertTrue(borrowedBook.isBorrowed());
+    }
+    @Test
+    public void testBorrowNonExistentBook() {
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+            library.borrowBook("123-756");
+        });
+        assertEquals("Book not found in the library.", exception.getMessage());
+    }
+    @Test
+    public void testBorrowAlreadyBorrowedBook() {
+        library.borrowBook("123-202");
+        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
+            library.borrowBook("123-202");
+        });
+        assertEquals("Book is already borrowed.", exception.getMessage());
+    }
 }
