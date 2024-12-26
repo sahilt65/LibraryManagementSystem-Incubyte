@@ -56,7 +56,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.LibraryTest.testAddBook">
+  <component name="RunManager" selected="JUnit.LibraryTest">
     <configuration name="BookTest.testBookCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibraryManagementSystem-Incubyte" />
       <extension name="coverage">
@@ -69,6 +69,21 @@
       <option name="MAIN_CLASS_NAME" value="org.incubyteAssessment.BookTest" />
       <option name="METHOD_NAME" value="testBookCreation" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagementSystem-Incubyte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.incubyteAssessment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.incubyteAssessment" />
+      <option name="MAIN_CLASS_NAME" value="org.incubyteAssessment.LibraryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,8 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LibraryTest.testAddDuplicateBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagementSystem-Incubyte" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.incubyteAssessment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.incubyteAssessment" />
+      <option name="MAIN_CLASS_NAME" value="org.incubyteAssessment.LibraryTest" />
+      <option name="METHOD_NAME" value="testAddDuplicateBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest" />
+        <item itemvalue="JUnit.LibraryTest.testAddDuplicateBook" />
         <item itemvalue="JUnit.LibraryTest.testAddBook" />
         <item itemvalue="JUnit.BookTest.testBookCreation" />
       </list>

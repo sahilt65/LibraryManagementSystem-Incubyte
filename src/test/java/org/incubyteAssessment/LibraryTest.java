@@ -29,6 +29,7 @@ public class LibraryTest {
 
     @Test
     public void testAddDuplicateBook() {
+        book1 = new Book("123-202", "Java", "Freeman", 2001);
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
             library.addBook(book1); // Adding the same book again
         });
